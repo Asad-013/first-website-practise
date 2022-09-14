@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body { 
+                   
+            background-image: url('https://images.pexels.com/photos/2117937/pexels-photo-2117937.jpeg');
+        }
+        .form{
+            
+            text-align: center; 
+            }
+
+        #btn {
+            border-radius: 20%;
+            width: 30%;
+            color: rgb(255, 1, 1);
+             }
+        #btn:hover
+            {
+            background-color: yellow;
+            }
+        .j1 { 
+            border-radius: 20px;
+            width: 50%;
+            padding: 2vh;
+            margin: 2vh;
+            }    
+        #cars{
+            color: darkorange;
+        }
+    </style>
+    <form class="form">
+         <label><h1>Food Item</h1></label> <br>
+         <input class="j1" type="text" placeholder="What you would love to eat?"> <br>
+         <input class="j1" type="text" placeholder="Need nun?"><br>
+         <input id="btn" type="submit"> <br>
+         <input class="j1" type="date" placeholder="Send pic">
+         <input class="j1" type="file"  placeholder="Send pic">
+         <input class="j1" type="search"  placeholder="Send pic">
+         <input class="j1" type=""  placeholder="Send pic"> <br>
+         <label for="cars"> Choose a car:</label>
+
+        <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+        </select>
+        </form>
+</body>
+</html>
